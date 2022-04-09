@@ -127,6 +127,8 @@ button:active {
 }
 .title-big {
   background-color: #2f303a;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/backgrand-people-in-office.webp), no-repeat;
+  background-size: cover;
   color: white;
   font-weight: 900;
   font-size: 44px;
@@ -322,8 +324,20 @@ a:active {
   margin-bottom: 9px;
 }
 .shadow {
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 
+  box-shadow: 
+  0px 2px 1px 0px rgba(0, 0, 0, 0.2), 
   0px 1px 1px 0px rgba(0, 0, 0, 0.14), 
-  0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   border-radius: 3px;
+}
+.clients {
+  width: 172px;
+  height: 92px;
+  margin-right: 30px;
+  border: solid 1px #AFB1B8;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.clients:last-child {
+  margin-right: 0;
 }
