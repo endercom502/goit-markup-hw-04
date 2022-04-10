@@ -231,7 +231,6 @@ a:active {
   text-align: center;
   font-size: 36px;
   line-height: 1.18;
-  text-align: center;
   padding-top: 94px;
   padding-bottom: 50px;
 }
@@ -337,7 +336,37 @@ a:active {
   border: solid 1px #AFB1B8;
   border-radius: 4px;
   box-sizing: border-box;
+  margin-bottom: 94px;
+}
+.clients:hover {
+  border: solid 1px #2196F3
 }
 .clients:last-child {
   margin-right: 0;
+}
+.container-clients {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+.clients-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clients-graphics {
+  width: 106px;
+  height: 60.04px;
+  fill: #AFB1B8;
+  margin: 17.71px 32px 14.25px;
+  border: 1px solid transparent;
+  text-align: center;
+  stroke: #AFB1B8;
+}
+.clients-graphics:hover {
+  fill: #2196F3;
+  border: 1px solid #2196F3;
+  stroke: #2196F3;
 }
