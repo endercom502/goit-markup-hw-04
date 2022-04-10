@@ -339,11 +339,9 @@ a:active {
   margin-bottom: 94px;
 }
 .clients:hover {
-  border: solid 1px #2196F3
+  border: solid 1px #2196F3;
 }
-.clients:last-child {
-  margin-right: 0;
-}
+
 .container-clients {
   display: flex;
   flex-basis: 100%;
