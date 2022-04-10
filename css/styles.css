@@ -189,9 +189,8 @@ a:active {
   color: #757575;
 }
 .grafit::after {
-  content: "";
+  content: ' ';
   background-image: url('./images/icons.svg#icon-mobile-phone');
-  
 }
 .menu-500 {
   font-weight: 500;
@@ -213,7 +212,6 @@ a:active {
   line-height: 1.6;
   margin-top: 30px;
 }
-
 .list-head {
   font-size: 14px;
   line-height: 1.14;
