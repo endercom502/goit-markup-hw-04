@@ -188,10 +188,6 @@ a:active {
 .grafit {
   color: #757575;
 }
-.grafit::after {
-  content: ' ';
-  background-image: url('./images/icons.svg#icon-mobile-phone');
-}
 .menu-500 {
   font-weight: 500;
   line-height: 1.14;
@@ -380,11 +376,10 @@ a:active {
   background-color: #F5F4FA;
   width: 270px;
   height: 120px;
-  fill: #212121;
   margin: 17.71px 32px 14.25px;
   border: 1px solid transparent;
   text-align: center;
   stroke: #212121;
-  fill-opacity: 1;
-  stroke-width: 0;
+  fill-opacity: 0;
+  stroke-width: 1;
 }
