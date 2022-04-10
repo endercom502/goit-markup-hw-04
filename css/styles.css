@@ -376,3 +376,15 @@ a:active {
   fill-opacity: 1;
   stroke-width: 0;
 }
+.lorem-graphics {
+  background-color: #F5F4FA;
+  width: 270px;
+  height: 120px;
+  fill: #212121;
+  margin: 17.71px 32px 14.25px;
+  border: 1px solid transparent;
+  text-align: center;
+  stroke: #212121;
+  fill-opacity: 1;
+  stroke-width: 0;
+}
