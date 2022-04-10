@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "negokaz.live-server-preview",
-    "ms-vsliveshare.vsliveshare"
+    "ms-vsliveshare.vsliveshare",
+    "ritwickdey.LiveServer"
   ]
 }
