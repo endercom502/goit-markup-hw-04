@@ -364,9 +364,12 @@ a:active {
   border: 1px solid transparent;
   text-align: center;
   stroke: #AFB1B8;
+  fill-opacity: 1;
+  stroke-width: 0;
 }
 .clients-graphics:hover {
   fill: #2196F3;
   border: 1px solid #2196F3;
-  stroke: #2196F3;
+  fill-opacity: 1;
+  stroke-width: 0;
 }
