@@ -211,7 +211,6 @@ a:active {
 .list-head {
   font-size: 14px;
   line-height: 1.14;
-  margin-top: 94px;
 }
 .list-text {
   font-size: 14px;
@@ -220,11 +219,11 @@ a:active {
   line-height: 1.71;
   width: 270px;
   height: 75px;
-  padding-right: 30px;
+  margin-right: 30px;
   margin-bottom: 94px;
 }
 .list-text:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 .over-photos {
   text-align: center;
@@ -360,7 +359,6 @@ a:active {
   height: 60.04px;
   fill: #AFB1B8;
   margin: 17.71px 32px 14.25px;
-  border: 1px solid transparent;
   text-align: center;
   stroke: #AFB1B8;
   fill-opacity: 1;
@@ -372,14 +370,42 @@ a:active {
   fill-opacity: 1;
   stroke-width: 0;
 }
+.clients-graphics:nth-child(2n+1) {
+  margin: 16px 32px;
+}
 .lorem-graphics {
   background-color: #F5F4FA;
   width: 270px;
   height: 120px;
-  margin: 17.71px 32px 14.25px;
   border: 1px solid transparent;
   text-align: center;
+  box-sizing: border-box;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 94px;
+}
+.lorem-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lorem-ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.lorem-src {
+  margin: 25px 102.34px 25px;
   stroke: #212121;
-  fill-opacity: 0;
+  fill-opacity: 1;
   stroke-width: 1;
+  fill: #212121;
+  width: 65.32px;
+  height: 70px;
+  text-align: center;
+  fill-opacity: 0;
+  stroke-width: 0.5;
 }
