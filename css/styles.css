@@ -398,14 +398,11 @@ a:active {
   list-style: none;
 }
 .lorem-src {
-  margin: 25px 102.34px 25px;
+  /* margin: 25px 102.34px 25px; */
   stroke: #212121;
-  fill-opacity: 1;
-  stroke-width: 1;
-  fill: #212121;
-  width: 65.32px;
-  height: 70px;
+  /* stroke-width: 1; */
+  /* fill: #212121; */
   text-align: center;
-  fill-opacity: 0;
-  stroke-width: 0.5;
+  /* fill-opacity: 1;
+  stroke-width: 1; */
 }
