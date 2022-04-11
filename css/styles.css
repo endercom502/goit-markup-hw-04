@@ -105,6 +105,9 @@ main {
   padding-right: 27px;
   padding-left: 371px;
 }
+.ul-style-2 > li {
+align-items: baseline;
+}
 .padding-30 > li {
 padding-right: 30px;
 }
