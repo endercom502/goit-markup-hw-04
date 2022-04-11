@@ -408,3 +408,7 @@ a:active {
   fill-opacity: 1;
   stroke-width: 0;
 }
+.workers-svg {
+  fill: #AFB1B8;
+  stroke: none;
+}
