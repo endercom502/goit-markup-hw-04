@@ -379,10 +379,10 @@ a:active {
   height: 120px;
   border: 1px solid transparent;
   text-align: center;
-  box-sizing: border-box;
   margin-right: 30px;
   margin-bottom: 30px;
   margin-top: 94px;
+  border-radius: 4px;
 }
 .lorem-container {
   display: flex;
