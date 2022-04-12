@@ -420,18 +420,18 @@ a:active {
 .workers-svg {
   z-index: 1;
   fill: #AFB1B8;
-  stroke: none;
+  stroke: #AFB1B8;
 }
 .workers-svg:hover {
-  stroke: #2196F3;
-  fill: #FFFFFF;
+  fill: #2196F3;
+  stroke: #FFFFFF;
 }
 .circle {
   z-index: 0;
 }
 .circle:hover {
-  fill: #FFFFFF;
-  stroke: #2196F3;
+  stroke: #FFFFFF;
+  fill: #2196F3;
 }
 .worekers-span {
   display: flex;
