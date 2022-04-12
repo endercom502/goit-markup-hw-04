@@ -434,13 +434,12 @@ button:active {
 .circle:hover {
   stroke: #FFFFFF;
   fill: #2196F3;
+  fill-opacity: 1;
 }
 .worekers-span {
+  list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-.logo-header {
-  display: flex;
-  align-items: center;
+  width: 270px;
 }
