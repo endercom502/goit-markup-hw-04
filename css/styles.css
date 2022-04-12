@@ -415,13 +415,18 @@ a:active {
   stroke: none;
 }
 .workers-svg:hover {
-  fill: #2196F3;
-  stroke: #FFFFFF;
+  stroke: #2196F3;
+  fill: #FFFFFF;
 }
 .circle {
   z-index: 0;
 }
 .circle:hover {
-  fill: #2196F3;
-  stroke: #FFFFFF;
+  fill: #FFFFFF;
+  stroke: #2196F3;
+}
+.worekers-span {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
