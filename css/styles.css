@@ -412,3 +412,8 @@ a:active {
   fill: #AFB1B8;
   stroke: none;
 }
+.icons-contact::after {
+  content: " ";
+  background-image: url('../images/icons.svg#icon-mail');
+  background: no-repeat;
+}
