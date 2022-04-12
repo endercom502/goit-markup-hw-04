@@ -99,20 +99,20 @@ main {
   list-style: none;
   justify-content: space-between;
   flex-direction: row;
-  width: 254px;
-  
+  width: 300px;
 }
 .ul-style-2 {
   display: flex;
   list-style: none;
   justify-content: space-between;
   flex-direction: row;
-  width: 295px;
+  width: 300px;
   padding-right: 27px;
-  padding-left: 371px;
+  padding-left: 341px;
+  align-items: center;
 }
-.ul-style-2 > li {
-align-items: baseline;
+.ul-style-2 > {
+align-items: center;
 }
 .padding-30 > li {
 padding-right: 30px;
@@ -183,22 +183,24 @@ button:active {
 .blue {
   color: #2196f3;
 }
-a {
+.a-link {
   color: #212121;
   padding: 0;
 }
-a:link {
+.a-link:link {
   text-decoration: #2196f3;
 }
-a:hover {
+.a-link:hover {
   color: #2196f3;
   fill: #2196f3;
 }
-a:active {
+.a-link:active {
   color: #2196f3;
 }
 .grafit {
   color: #757575;
+  fill: #757575;
+  padding-left: 5px;
 }
 .menu-500 {
   font-weight: 500;
@@ -437,4 +439,8 @@ a:active {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.logo-header {
+  display: flex;
+  align-items: center;
 }
