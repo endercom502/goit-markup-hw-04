@@ -178,12 +178,14 @@ button:active {
 a {
   color: #212121;
   padding: 0;
+  fill: #212121;
 }
 a:link {
   text-decoration: #2196f3;
 }
 a:hover {
   color: #2196f3;
+  fill: #2196f3;
 }
 a:active {
   color: #2196f3;
@@ -411,9 +413,4 @@ a:active {
 .workers-svg {
   fill: #AFB1B8;
   stroke: none;
-}
-.icons-contact::after {
-  content: " ";
-  background-image: url('../images/icons.svg#icon-mail');
-  background: no-repeat;
 }
