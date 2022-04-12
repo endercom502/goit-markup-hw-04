@@ -413,3 +413,6 @@ a:active {
   fill: #AFB1B8;
   stroke: none;
 }
+.workers-svg:hover {
+  fill: #2196F3;
+  stroke: #FFFFFF;
