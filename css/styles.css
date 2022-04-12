@@ -43,10 +43,8 @@ main {
   padding-bottom: 94px;
 }
 .item-photo:hover {
-  boreder: solid 1px transparent;
-  box-shadow: 1px 4 px 6px 0px rgba(0, 0, 0, 0.12), 
-  0px 4px 4px 0px rgba(0, 0, 0, 0.06), 
-  0px 1px 1px 0px rgba(0, 0, 0, 0.16);
+  padding: 0;
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.16) ;
 }
 .container {
   display: flex;
@@ -111,7 +109,7 @@ main {
   padding-left: 341px;
   align-items: center;
 }
-.ul-style-2 > {
+.ul-style-2 > li{
 align-items: center;
 }
 .padding-30 > li {
@@ -441,5 +439,4 @@ button:active {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 270px;
 }
