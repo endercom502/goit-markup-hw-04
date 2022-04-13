@@ -421,19 +421,23 @@ button:active {
   fill: #AFB1B8;
   stroke: #AFB1B8;
 }
-.workers-svg:hover {
+.workers-span > li > svg > circle:hover {
+  stroke: #FFFFFF;
+  fill: #2196F3;
+  fill-opacity: 1;
+}
+.workers-span > li > svg > svg > use:hover {
   fill: #FFFFFF;
   stroke: #FFFFFF;
 }
 .circle {
 }
-.circle:hover {
-  stroke: #FFFFFF;
-  fill: #2196F3;
-  fill-opacity: 1;
-}
+
 .workers-span {
+  list-style: none;
+}
+.social-div {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  margin: 0 auto;
 }
