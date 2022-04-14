@@ -430,9 +430,9 @@ button:active {
   fill: #FFFFFF;
   stroke: #FFFFFF;
 }
-.circle {
+.circle-1 {
+  fill: rgba(255, 255, 255, 0.10);
 }
-
 .workers-span {
   list-style: none;
 }
@@ -442,14 +442,37 @@ button:active {
   justify-content: center;
 }
 .footer-div {
-    display-flex;
-    flex-direction: row;
+    display: inline;
+    flex-direction: column;
 }
 .social-div-1 {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   width: 206px;
   height: 80px;
 }
+.workers-span-1 > li > svg > circle:hover {
+  stroke: #FFFFFF;
+  fill: #2196F3;
+  fill-opacity: 1;
+}
+.workers-span-1 {
+  list-style: none;
+  flex-grow: 1;
+}
+.workers-span-1 > li > svg > svg > use:hover {
+  fill: #FFFFFF;
+  stroke: #FFFFFF;
+}
+.footer-h {
+  flex-basis: 206px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+.workers-svg-1 {
+  fill: #FFFFFF;
+  stroke: #AFB1B8;
