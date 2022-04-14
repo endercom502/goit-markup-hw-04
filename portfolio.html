@@ -15,18 +15,25 @@
     <meta charset="utf-8">
 </head>
 <header class="container-1200">
-    <a href="https://google.com" class="logo black">Web<span>Studio</span></a>
+    <a href="https://google.com" class="logo a-link"><span class="blue">Web</span><span>Studio</span></a>
 
     <nav class="flex-element">
         <ul class="menu-500 ul-style">
-            <li><a href="index.html">Agencja</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="">Kontakt</a></li>
+            <li><a href="index.html" class="a-link">Agencja</a></li>
+            <li><a href="portfolio.html" class="a-link">Portfolio</a></li>
+            <li><a href="" class="a-link">Kontakt</a></li>
         </ul>
     </nav>
-    <ul class="menu-14 menu-500 ul-style-2">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111" class="grafit">+48 111 111 111</a></li>
+    <ul class="menu-500 ul-style-2">
+        <li class="a-link"><a href="mailto:info@devstudio.com" class="icons-contact a-link">
+            <svg width="16px" height="16px" style="text-align: center;">
+            <use href="./images/icons.svg#icon-mail"></use>
+            </svg>info@devstudio.com</a></li>
+      
+        <li class="a-link grafit"><svg width="16px" height="16px">
+            <use href="./images/icons.svg#icon-mobile"></use>
+            </svg>+48 111 111 111
+            <a href="tel:+48111111111"></a></li>
     </ul>
 </header>
 <main>
@@ -115,14 +122,46 @@
     </div>
 </main>
 <footer class="footer-black">
+    <div class="footer-div">
+    <div>
     <a href="" class="logo white">Web<span>Studio</span></a>
     <ul class="footer-text">
         <li>
             <address class="adres">m. Warszawa, Aleje Jerozolimskie 21</address>
         </li>
-        <li><a href="mailto:info@devstudio.com" class="adres-second-line">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111" class="grafit">+48 111 111 111</a></li>
+        <li><a href="mailto:info@devstudio.com" class="adres-second-line a-link">info@devstudio.com</a></li>
+        <li><a href="tel:+48111111111" class="grafit a-link">+48 111 111 111</a></li>
     </ul>
+    </div>
+        
+    <div class="social-div-1">
+        <h2 class="footer-h">DOŁĄCZ DO NAS</h2>
+                        <ul class="workers-span-1">
+                            <li><svg width="44px" height="44px">
+                                <circle r="22" cx="22" cy="22" stroke-width="0" class="circle-1"></circle><svg >
+                                    <use width="20px" height="20px" class="workers-svg-1" x="12" y="12" href="./images/icons.svg#icon-instagram"></use></svg>
+                            </svg></li>
+                        </ul>
+                        <ul class="workers-span-1">
+                            <li><svg width="44px" height="44px">
+                                <circle r="22" cx="22" cy="22" stroke-width="0" class="circle-1"></circle>
+                            <svg width="20px" height="20px" class="workers-svg-1" x="12" y="12">
+                                    <use href="./images/icons.svg#icon-twitter"></use></svg></svg></li>
+                        </ul>
+                        <ul class="workers-span-1">
+                            <li><svg width="44px" height="44px">
+                                <circle r="22" cx="22" cy="22" stroke-width="0" class="circle-1"></circle>
+                            <svg width="20px" height="20px" class="workers-svg-1" x="12" y="12">
+                                    <use href="./images/icons.svg#icon-facebook"></use></svg></svg></li>
+                        </ul>
+                        <ul class="workers-span-1">
+                            <li><svg width="44px" height="44px">
+                                <circle r="22" cx="22" cy="22" stroke-width="0" class="circle-1"></circle>
+                            <svg width="20px" height="20px" class="workers-svg-1" x="12" y="12">
+                                    <use href="./images/icons.svg#icon-linkedin"></use></svg></svg></li>
+                        </ul>
+                           
+    </div>    
+    </div>
 </footer>
-
 </html>

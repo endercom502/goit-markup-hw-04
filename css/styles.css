@@ -160,9 +160,9 @@ button:active {
   line-height: 1.71;
   font-weight: 400;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
-  padding-left: 215px;
+  padding-left: 171px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -426,13 +426,13 @@ button:active {
   fill: #AFB1B8;
   stroke: #AFB1B8;
 }
-.workers-span > li > svg > circle:hover {
+.workers-span-3 circle:hover {
   stroke: #FFFFFF;
   fill: #2196F3;
   fill-opacity: 1;
   cursor: pointer;
 }
-.workers-span > li > svg > svg > use:hover {
+.workers-span-3 use:hover {
   fill: #FFFFFF;
   stroke: #FFFFFF;
   cursor: pointer;
@@ -449,8 +449,8 @@ button:active {
   justify-content: center;
 }
 .footer-div {
-    display: inline;
-    flex-direction: column;
+    display: inline-flex;
+    flex-direction: row;
 }
 .social-div-1 {
   display: inline-flex;
@@ -459,11 +459,13 @@ button:active {
   flex-wrap: wrap;
   width: 206px;
   height: 80px;
+  margin-left: 171px;
 }
 .workers-span-1 > li > svg > circle:hover {
   stroke: #FFFFFF;
   fill: #2196F3;
   fill-opacity: 1;
+  cursor: pointer;
 }
 .workers-span-1 {
   list-style: none;
