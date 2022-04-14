@@ -44,6 +44,7 @@ main {
 }
 .item-photo:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.16) ;
+  cursor: pointer;
 }
 .container {
   display: flex;
@@ -129,6 +130,7 @@ button {
   0px 2px 2px rgba(0, 0, 0, 0.12);
   line-height: 1.62;
   margin-left: 0px;
+  cursor: pointer;
 }
 button:active {
   color: #2196f3;
@@ -191,6 +193,7 @@ button:active {
   cursor: pointer;
   color: #2196f3;
   fill: #2196f3;
+  cursor: pointer;
 }
 .a-link:active {
   color: #2196f3;
@@ -350,6 +353,7 @@ button:active {
 }
 .clients:hover {
   border: solid 1px #2196F3;
+  cursor: pointer;
 }
 .clients:last-child {
   margin-right: 0;
@@ -381,6 +385,7 @@ button:active {
   border: 1px solid #2196F3;
   fill-opacity: 1;
   stroke-width: 0;
+  cursor: pointer;
 }
 .clients-graphics:nth-child(2n+1) {
   margin: 16px 32px;
@@ -425,10 +430,12 @@ button:active {
   stroke: #FFFFFF;
   fill: #2196F3;
   fill-opacity: 1;
+  cursor: pointer;
 }
 .workers-span > li > svg > svg > use:hover {
   fill: #FFFFFF;
   stroke: #FFFFFF;
+  cursor: pointer;
 }
 .circle-1 {
   fill: rgba(255, 255, 255, 0.10);
@@ -465,6 +472,7 @@ button:active {
 .workers-span-1 > li > svg > svg > use:hover {
   fill: #FFFFFF;
   stroke: #FFFFFF;
+  cursor: pointer;
 }
 .footer-h {
   flex-basis: 206px;
