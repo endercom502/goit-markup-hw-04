@@ -100,14 +100,22 @@ main {
   width: 300px;
 }
 .ul-style-2 {
-  display: flex;
   list-style: none;
-  justify-content: space-between;
-  flex-direction: row;
-  width: 300px;
-  padding-right: 27px;
+  width: 321px;
   padding-left: 341px;
+  list-style: none;
+}
+.ul-style-2 span {
+  margin-left: 10px;
+}
+.ul-style-2 svg {
+  padding: 0;
+  line-height: 0;
+}
+.ul-style-2 a {
+  display: flex;
   align-items: center;
+  
 }
 .ul-style-2 > li{
 align-items: center;
@@ -152,6 +160,7 @@ button:active {
   flex-direction: column;
   margin-top: 0;
   margin-bottom: 0;
+  max-width: 1600px;
 }
 .footer-black {
   background-color: #2f303a;
@@ -204,10 +213,10 @@ button:active {
   padding-left: 5px;
 }
 .menu-500 {
+  display: inline-flex;
   font-weight: 500;
   line-height: 1.14;
   padding-left: 0px;
-
 }
 .button-big {
   background-color: #2196f3;
